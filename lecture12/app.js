@@ -7,6 +7,7 @@
   function MsgController($scope,$filter) {
     $scope.name = "zakaria";
     $scope.stateOfBeing = "hungry";
+    $scope.cookieCost = .45;
 
     $scope.sayMessage = function(){
       var msg = "say zakaria to eat healthy snacks at night!";

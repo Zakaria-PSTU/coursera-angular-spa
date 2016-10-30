@@ -10,7 +10,11 @@
     <div ng-app="MsgApp">
       <div ng-controller = "MsgController">
         <h1>Filters</h1>
-        <div>{{sayMessage()}}</div>
+        {{sayMessage()}}
+        <div>
+          <button ng-click="feedZakaria()">Feed Zakaria</button>
+          Cost: {{cookieCost | currency : "taka" : 3}}
+        </div>
       </div>
     </div>
   </body>
